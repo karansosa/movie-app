@@ -1,0 +1,115 @@
+/* styles.css */
+
+/* Global Styles */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .container {
+    max-width: 1200px;
+  }
+  
+  h2, h3, h5 {
+    font-weight: 600;
+  }
+  
+  /* Hero Slider Styles */
+  .carousel-item img {
+    height: 70vh;
+    object-fit: cover;
+  }
+  
+  .carousel-caption h3 {
+    font-size: 2rem;
+    font-weight: 700;
+  }
+  
+  .carousel-caption p {
+    font-size: 1.1rem;
+  }
+  
+  /* Homepage Styles */
+  .card-title {
+    font-size: 1.25rem;
+    font-weight: 600;
+  }
+  
+  .card {
+    border: none;
+    border-radius: 8px;
+    overflow: hidden;
+    transition: transform 0.3s ease-in-out;
+  }
+  
+  .card:hover {
+    transform: scale(1.05);
+  }
+  
+  .card-body {
+    background-color: #ffffff;
+    padding: 1rem;
+  }
+  
+  .card-body a {
+    text-decoration: none;
+    color: inherit;
+  }
+  
+  /* Movie List Styles */
+  .card-img-top {
+    height: 300px;
+    object-fit: cover;
+    max-width: 100%;
+    border-radius: 8px;
+  }
+  
+  .card-body h5 {
+    font-size: 1.1rem;
+    font-weight: 600;
+    color: #333;
+  }
+  
+  .card-body p {
+    color: #777;
+  }
+  
+  /* Footer Styles */
+  footer {
+    background-color: #343a40;
+    color: #ffffff;
+  }
+  
+  footer p {
+    font-size: 1rem;
+    margin: 0;
+    padding: 1rem 0;
+  }
+  
+  /* Search Bar Styles */
+  input.form-control {
+    border-radius: 20px;
+    padding: 10px 20px;
+    border: 2px solid #ccc;
+    font-size: 1rem;
+    box-shadow: none;
+  }
+  
+  input.form-control:focus {
+    border-color: #007bff;
+    box-shadow: 0 0 0 0.2rem rgba(38, 143, 255, 0.5);
+  }
+  
+  /* Responsive Styles */
+  @media (max-width: 767px) {
+    .carousel-caption h3 {
+      font-size: 1.5rem;
+    }
+  
+    .carousel-caption p {
+      font-size: 1rem;
+    }
+  }
+  
